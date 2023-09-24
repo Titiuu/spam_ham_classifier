@@ -8,7 +8,7 @@ from nltk.stem import PorterStemmer
 # nltk.download('porter_test')
 
 stopwords = set(nltk.corpus.stopwords.words('english'))
-PS = PorterStemmer()
+PS = PorterStemmer()#替换和消除英文单词中的一些众所周知的后缀
 
 
 # 将邮件的不同部分合并成一个字符串列表
